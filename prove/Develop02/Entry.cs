@@ -14,7 +14,7 @@ public class Entry
         PromptLine = gen_prompt.GeneratePrompt();
         Console.WriteLine(PromptLine);
         Response = Console.ReadLine();
-        Date = DateTime.Now.Year.ToString();
+        Date = DateTime.Now.Date.ToString();
 
     }
 
